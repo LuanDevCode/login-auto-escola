@@ -99,3 +99,37 @@ td:hover {
     transform: translateX(-5px);
     transition: 0.5s;
 }
+
+label[for="name"]::before {
+    font-family: 'Material Symbols Outlined';
+    content: "person";
+    font-size: 1.2em;
+    margin-right: 6px;
+    /* controla a distância do texto */
+    vertical-align: middle;
+    /* ajuda no alinhamento */
+}
+
+label[for="password"]::before {
+    font-family: 'Material Symbols Outlined';
+    content: "lock";
+    font-size: 1.2em;
+    margin-right: 6px;
+    vertical-align: middle;
+}
+
+label[for="nascimento"]::before {
+    font-family: 'Material Symbols Outlined';
+    content: "calendar_month";
+    font-size: 1.2em;
+    margin-right: 6px;
+    vertical-align: middle;
+}
+
+.th-grade::before {
+    font-family: 'Material Symbols Outlined';
+    content: "contextual_token";
+    font-size: 1.2em;
+    margin-right: 6px;
+    vertical-align: middle;
+}
